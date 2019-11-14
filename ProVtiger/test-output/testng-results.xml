@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[QuotePageis pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20523" started-at="2019-11-13T01:08:35 IST" finished-at="2019-11-13T01:08:55 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20523" started-at="2019-11-13T01:08:35 IST" finished-at="2019-11-13T01:08:55 IST">
+      <class name="com.vtiger.testPom.EditQuote">
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testPom.EditQuote@23e028a9]" name="beforeM" is-config="true" duration-ms="12318" started-at="2019-11-13T01:08:35 IST" finished-at="2019-11-13T01:08:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="QuotePage()[pri:0, instance:com.vtiger.testPom.EditQuote@23e028a9]" name="QuotePage" duration-ms="7993" started-at="2019-11-13T01:08:47 IST" finished-at="2019-11-13T01:08:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuotePage -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testPom.EditQuote@23e028a9]" name="afterM" is-config="true" duration-ms="175" started-at="2019-11-13T01:08:55 IST" finished-at="2019-11-13T01:08:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QuotePage status=SUCCESS method=EditQuote.QuotePage()[pri:0, instance:com.vtiger.testPom.EditQuote@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[QuotePageis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+      </class> <!-- com.vtiger.testPom.EditQuote -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
